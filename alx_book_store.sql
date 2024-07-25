@@ -6,10 +6,10 @@ CREATE TABLE Books (
     author_id INT,
     price FLOAT,
     publication_date DATE,
-    FOREIGN KEY (author_id) REFERENCES Author (author_id)
+    FOREIGN KEY (author_id) REFERENCES Authors (author_id)
 )
 
-CREATE TABLE Author (
+CREATE TABLE Authors (
     author_id INT PRIMARY KEY,
     author_name VARCHAR(215),
 )
