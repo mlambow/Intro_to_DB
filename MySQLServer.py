@@ -1,5 +1,6 @@
 import mysql.connector
 
+CREATE DATABASE IF NOT EXISTS alx_book_store
 
 mydb = mysql.connector.connect(
     host = 'localhost',
@@ -9,3 +10,4 @@ mydb = mysql.connector.connect(
 )
 
 print(mydb.get_server_info())
+except 
