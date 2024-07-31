@@ -10,4 +10,4 @@ mydb = mysql.connector.connect(
 )
 
 print(mydb.get_server_info())
-except 
+except mysql.connector.Error
